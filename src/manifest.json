@@ -1,0 +1,23 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "iconfont-webview.my-command-identifier",
+      "script": "./my-command.js",
+      "handlers": {
+        "run": "onRun",
+        "actions": {
+          "Shutdown": "onShutdown"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "iconfont-webview",
+    "items": [
+      "iconfont-webview.my-command-identifier"
+    ]
+  }
+}
