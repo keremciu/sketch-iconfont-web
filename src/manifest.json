@@ -3,9 +3,9 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "iconfont-webview.my-command-identifier",
-      "script": "./my-command.js",
+      "name": "Insert Icon",
+      "identifier": "iconfont-webview.insert-icon-identifier",
+      "script": "./insert-icon.js",
       "handlers": {
         "run": "onRun",
         "actions": {
@@ -15,9 +15,9 @@
     }
   ],
   "menu": {
-    "title": "iconfont-webview",
+    "title": "Icon Font Web",
     "items": [
-      "iconfont-webview.my-command-identifier"
+      "iconfont-webview.insert-icon-identifier"
     ]
   }
 }

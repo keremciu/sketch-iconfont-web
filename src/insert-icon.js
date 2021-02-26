@@ -8,9 +8,11 @@ const webviewIdentifier = 'iconfont-webview.webview'
 export default function () {
   const options = {
     identifier: webviewIdentifier,
+    alwaysOnTop: true,
     width: 480,
-    height: 180,
-    show: false
+    height: 220,
+    show: false,
+    title: 'Select an icon to insert'
   }
 
   const browserWindow = new BrowserWindow(options)
@@ -35,9 +37,11 @@ export default function () {
       alignment: Text.Alignment.center,
       style: {
         fontFamily: 'Material Icons',
-        fontSize: 16,
+        fontSize: 20,
       }
     })
+
+    onShutdown()
   })
 
   browserWindow.loadURL(require('../resources/webview.html'))
