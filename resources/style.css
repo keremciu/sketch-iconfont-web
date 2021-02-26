@@ -56,7 +56,7 @@ input, textarea {
 }
 
 #icons {
-  height: 160px;
+  height: 200px;
   overflow-x: hidden;
   overflow-y: auto;
   display: grid;
