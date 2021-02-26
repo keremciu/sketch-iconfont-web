@@ -1,14 +1,19 @@
 # iconfont-webview
 
+## Easy way of using Icons in Sketch
+
+- Right now only supports material icons regular. I will work on others in the meantime.
+- Only tested with Sketch 70+ version.
+
+Just install material-icons [ttf file](https://github.com/google/material-design-icons/tree/master/font) then you can insert an icon from the dialog below.
+
+![demo interface](/assets/screenshot.png "how it looks")]
+
 ## Installation
 
 - [Download](../../releases/latest/download/iconfont-webview.sketchplugin.zip) the latest release of the plugin
 - Un-zip
 - Double-click on iconfont-webview.sketchplugin
-
-## Development Guide
-
-_This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
 
 ### Usage
 
