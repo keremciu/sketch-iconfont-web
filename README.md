@@ -7,7 +7,7 @@
 
 Just install material-icons [ttf file](https://github.com/google/material-design-icons/tree/master/font) then you can insert an icon from the dialog below.
 
-![demo interface](/assets/screenshot.png "how it looks")]
+![demo interface](/assets/screenshot.png "how it looks")
 
 ## Installation
 
