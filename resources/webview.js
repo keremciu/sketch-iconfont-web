@@ -3,10 +3,14 @@ document.addEventListener('contextmenu', (e) => {
   e.preventDefault()
 })
 
-const element = document.querySelector(".material-icons");
+var toAppend = "";
+for (i = 0; i < window.icons.length; ++i) {
+   toAppend += "<button class='material-icons'>" + window.icons[i] + "</button>";
+}
+document.getElementById('icons').innerHTML = toAppend
 
-element.addEventListener("click", (event) => {
+document.getElementById("icons").addEventListener("click", (event) => {
+  if (event.target.tagName != 'BUTTON') return;
   const iconName = event.target.innerHTML
-  document.getElementById('answer').innerHTML = iconName
   window.postMessage('insertText', iconName)
 });

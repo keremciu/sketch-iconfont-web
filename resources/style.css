@@ -53,3 +53,16 @@ input, textarea {
   -webkit-user-select: auto;
   user-select: auto;
 }
+
+#icons {
+  height: 100px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+button {
+  width: 36px;
+  height: 36px;
+  font-size: 24px;
+}
