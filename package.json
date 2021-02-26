@@ -1,7 +1,7 @@
 {
   "name": "iconfont-webview",
   "description": "New and easy way of using Icons in Sketch",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "engines": {
     "sketch": ">=3.0"
   },
@@ -20,7 +20,7 @@
     "start": "skpm-build --watch",
     "postinstall": "npm run build && skpm-link"
   },
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/keremciu/sketch-iconfont-web.git"
   },
