@@ -1,7 +1,7 @@
 {
   "name": "iconfont-webview",
   "description": "New and easy way of using Icons in Sketch",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "engines": {
     "sketch": ">=3.0"
   },
