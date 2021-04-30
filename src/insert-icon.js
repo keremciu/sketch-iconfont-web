@@ -10,7 +10,7 @@ export default function () {
     identifier: webviewIdentifier,
     alwaysOnTop: true,
     width: 480,
-    height: 220,
+    height: 264,
     show: false,
     title: 'Select an icon to insert'
   }
